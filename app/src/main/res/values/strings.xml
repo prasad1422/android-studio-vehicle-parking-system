@@ -1,0 +1,7 @@
+<resources>
+    <string name="about_us_description"><![CDATA[
+    A smart parking app is a smartphone application that allows drivers to find and pay for parking in advance. The app uses GPS to guide drivers to available parking spots and allows them to pay for parking directly from their phone. Smart parking apps offer a number of benefits for both drivers and parking operators. A parking management system automates a car parking system, optimizes parking space, and makes processes efficient. It provides real-time car parking information such as vehicle and slot counts, available slots display, reserved parking, pay-and-park options, easy payments, reports, and a host of other features.
+]]></string>
+    <string name="app_name">vehicle parking system</string>
+    <string name="give_feedback">Give Feedback</string>
+</resources>

@@ -1,0 +1,5 @@
+<!-- res/drawable/button_background_pink.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F10078" /> <!-- Set the color to pink (#F10078) -->
+    <corners android:radius="8dp" /> <!-- Adjust the radius as needed for rounded corners -->
+</shape>

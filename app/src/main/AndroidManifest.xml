@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/vehicle_img1"
+        android:label="@string/app_name"
+        android:name=".application.ApplicationDetails"
+        android:roundIcon="@drawable/vehicle_img1"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.VehiclePakingApp"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Base.Theme.VehiclePakingApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".signupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".dashboardActivity" />
+        <activity android:name=".SlotBookingActivity" />
+        <activity android:name=".vehicleDetails" />
+        <activity android:name=".ScanAndPayActivity" />
+        <activity android:name=".editprofileactivity" />
+        <activity android:name=".feedbackActivity" />
+        <activity android:name=".registervehicleActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".userProfile" />
+        <activity android:name=".about_us" />
+        <activity android:name=".Confirmation" />
+        <activity android:name=".contactus" />
+        <activity android:name=".adminsignupActivity" />
+        <activity android:name=".vehicleuserdetails" />
+    </application>
+
+</manifest>
